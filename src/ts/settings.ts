@@ -1,11 +1,14 @@
 export const settings = {
     rectangle: {
-        minHeight: 30,
-        maxHeight: 50,
+        minHeight: 10,
+        maxHeight: 20,
         minWidth: 25,
         maxWidth: 40,
-        minSpeed: 5,
-        maxSpeed: 7
+        minSpeed: 2,
+        maxSpeed: 7,
+        initalSpeed: 4,
+        maxLevelSpeed: 10,
+        wallGap: 100,
     },
     monster: {
         width: 27,
@@ -34,5 +37,5 @@ export const settings = {
         y: 150,
         maxFallSpeed: 3
     },
-    gravity: 0.2
+    gravity: 0.2,
 }
